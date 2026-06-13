@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+
+.logo {
+  color: #6bb2d5; /* Ochiq ko'k rang */
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: #777;
+  margin-left: 30px;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.navbar nav a.active,
+.navbar nav a:hover {
+  color: #6bb2d5;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn-blue {
+  background-color: #6bb2d5;
+  color: white;
+  border: 2px solid #6bb2d5;
+}
+
+.btn-blue:hover {
+  background-color: #5aa1c4;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-transparent:hover {
+  background-color: white;
+  color: #333;
+}
