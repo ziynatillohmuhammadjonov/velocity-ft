@@ -1,0 +1,60 @@
+@import url(base.css);
+
+.contan {
+  background-color: #fff;
+}
+.section {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  color: #929292;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  line-height: 21px;
+}
+.section1 {
+  line-height: 20px;
+  font-size: 17px;
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+  margin: 0 auto;
+  text-align: center;
+}
+.btn {
+  width: 180px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  height: 30px;
+}
+.btn1 {
+  background-color: #2e80b6;
+}
+.btn3 {
+  background-color: #929292;
+}
+.imges {
+  margin: 0 auto;
+  margin-left: auto;
+}
+.margin-auto {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 36px;
+  font-size: 31px;
+  color: #676770;
+}
+
+.margin-auto1 {
+  color: #6a859c;
+  line-height: 25px;
+  font-size: 13px;
+  margin: 0 auto;
+  text-align: center;
+}
