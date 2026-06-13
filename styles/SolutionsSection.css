@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.wrapper {
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.heading {
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	line-height: 36px;
+	margin-top: 77px;
+	margin-bottom: 14px;
+	color: #676770;
+}
+
+.subtitle {
+	color: #8e8e9c;
+	letter-spacing: 3px;
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom: 62px;
+}
+
+.solutions__cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	list-style: none;
+	gap: 20px;
+}
+
+.card {
+	border: 1px solid #dcebf7;
+}
+.card__img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 19px;
+	margin-top: 36px;
+}
+
+.card__title {
+	color: #676770;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 7px;
+	line-height: 30px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 14px;
+}
+
+.card__text {
+	/* display: flex; */
+	text-align: center;
+	color: #6a859c;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 23px;
+}
