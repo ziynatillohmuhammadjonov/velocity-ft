@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.wrapper {
-	font-family: 'Open Sans', sans-serif;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.uppercase {
+.wrapper .uppercase {
 	text-transform: uppercase;
 }
 
@@ -17,7 +9,6 @@
 	font-weight: 400;
 	letter-spacing: 5px;
 	line-height: 36px;
-	margin-top: 77px;
 	margin-bottom: 14px;
 	color: #676770;
 }
@@ -45,7 +36,6 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 19px;
-	margin-top: 36px;
 }
 
 .card__title {
@@ -60,7 +50,6 @@
 }
 
 .card__text {
-	/* display: flex; */
 	text-align: center;
 	color: #6a859c;
 	font-weight: 400;
